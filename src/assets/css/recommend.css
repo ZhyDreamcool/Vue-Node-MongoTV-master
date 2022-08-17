@@ -1,0 +1,658 @@
+/* 轮播 */
+.recommend-Carousel{
+    position: relative;
+    top: 15px;
+    width: 1519px;
+    height: 400px;
+}
+.recommend-Carousel-img{
+    width: 100%;
+    height: 100%; 
+}
+.recommend-Carousel-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+/* 继续看   Preview.vue */
+.preview {
+    position: relative;
+    width: 1519px;
+    height: 400px;
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+
+.preview-main {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.preview-header {
+    width: 100%;
+    height: 60px;
+}
+
+.preview-header span {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.preview-boxes {
+    margin-top: 10px;
+    width: 215.8px;
+    height: 200px;
+    float: left;
+}
+
+.preview-main-header {
+    width: 215.8px;
+    height: 70px;
+}
+
+.preview-main-header div {
+    width: 100%;
+    height: 100%;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+}
+
+.preview-main-header img {
+    width: 100%;
+}
+
+.preview-main-header span {
+    color: #000;
+    font-size: 18px;
+}
+
+.preview-main-footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* background-color: black; */
+}
+
+.preview-inner {
+    width: 215.8px;
+    height: 300px;
+}
+
+.preview-img {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+.img-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.2;
+    width: 100px;
+    height: 40px;
+}
+
+.img-bottom div {
+    width: 80px;
+    height: 40px;
+    color: #ffffff;
+    margin-top: 12px;
+    opacity: 1;
+    margin-left: 15px;
+}
+
+.preview-font {
+    position: relative;
+    width: 190px;
+    height: 75px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.preview-font span {
+    font-weight: 600;
+    line-height: 40px;
+    width: 200px;
+    font-size: 17px;
+    
+}           
+
+.preview-font p {
+    color: gray;
+}
+
+/* 继续看
+隐藏部分 */
+.preview-inner{
+    height: 250px;
+}
+.preview-inner-none {
+    pointer-events: none;
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    background-color: rgb(48, 48, 48);
+    width: 140%;
+    z-index: 2;
+    height: 350px;
+}
+
+.inner-none-video {
+    width: 100%;
+    height: 50%;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.inner-none-video video {
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-none-box {
+    width: 86%;
+    height: 42%;
+    padding: 16px;
+}
+
+.inner-none-box-fone {
+    width: 100%;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.inner-none-box-fone span {
+    font-size: 17px;
+    color: #ffffff ;
+    line-height: 20px;
+    font-weight: 600;
+    
+}
+
+.inner-none-box-fone1 {
+    width: 100%;
+    height: 30px;
+}
+
+.inner-none-box-fone1 span {
+    height: 20px;
+    width: 40px;
+    font-size: 13px;
+    line-height: 20px;
+    border-radius: 15px;
+    padding: 1px 7px 1px 7px;
+    background-color: rgb(226, 226, 226);
+    margin-right: 10px;
+}
+
+.inner-none-box-fone2 {
+    width: 100%;
+    height: 45px;
+    padding-top: 1px;
+}
+
+.inner-none-box-fone2 p {
+    color: rgb(205, 205, 205);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.inner-none-box-fone3 {
+    width: 100%;
+    height: 40px;
+    /* margin-top: 5px; */
+}
+
+.inner-none-box-fone3 input {
+    width: 85px;
+    height: 25px;
+    border: 0;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: coral;
+
+}
+
+
+/* 内容1 */
+.recommend-content {
+    width: 1300px;
+    height: 450px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.recommend-headings {
+    width: 100%;
+    height: 60px;
+}
+
+.recommend-headings img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 13px;
+}
+
+.recommend-headings span {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.recommend-box-outside {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.recommend-box-inner {
+    width: 2500px;
+    height: 350px;
+}
+
+.recommend-inner-box {
+    position: relative;
+}
+
+.recommend-inner-box li {
+    float: left;
+}
+
+.recommend-inner-photo {
+    width: 190px;
+    height: 350px;
+    padding: 13px;
+    background-color: rgb(253, 251, 244);
+    position: relative;
+}
+
+.recommend-inner-photo img {
+    width: 190px;
+    height: 260px;
+    padding-bottom: 5px;
+}
+
+.recommend-inner-font {
+    width: 66px;
+    height: 21px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.7;
+    color: aliceblue;
+    position: absolute;
+    right: 20px;
+    top: 240px
+}
+
+.recommend-font-top {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #000;
+}
+
+.recommend-font-bottom {
+    font-size: 14px;
+    color: gray;
+}
+
+.recommend-inner-video {
+    width: 833px;
+    height: 300px;
+    float: left;
+    pointer-events: none;
+
+}
+
+.recommend-inner-video li {
+    float: left;
+}
+
+video {
+    height: 350px;
+}
+
+.recommend-two {
+    width: 150px;
+    height: 290px;
+    padding: 30px;
+    line-height: 28px;
+    background-color: rgb(29, 29, 29);
+}
+
+.recommend-twa {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.recommend-twb {
+    background-color: rgb(107, 107, 107);
+    opacity: 0.4;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.recommend-two p {
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.recommend-two button {
+    width: 100px;
+    height: 43px;
+    border: 0;
+    color: aliceblue;
+    border-radius: 15px;
+    background-color: rgb(252, 94, 55);
+}
+/* 电视剧、电影、综艺、排行榜 */
+.recommend-film {
+    width: 1300px;
+    height: 1400px;
+    margin: 0 auto;
+    /* background-color: blue */
+}
+
+.recommend-left {
+    width: 100%;
+    height: 460px;
+    float: left;
+}
+
+.recommend-left-head {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.recommend-left-head a {
+    float: left;
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+}
+
+.recommend-left-head ul {
+    line-height: 60px;
+}
+
+.recommend-left-head li {
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 25px;
+    color: aliceblue;
+    /* margin: 17px; */
+    background-color: rgb(173, 173, 173);
+    float: left;
+}
+
+.recommend-left-main {
+    width: 100%;
+    display: flex;
+    height: 400px;
+    line-height: 20px;
+    float: left;
+}
+
+.recommend-left-main-left {
+    width: 50%;
+    flex: 1;
+    /* height: 100%; */
+    float: left;
+    background-color: rgb(250, 250, 250);
+}
+
+.recommend-left-main-left span {
+    padding-left: 20px;
+}
+
+.recommend-left-main-left div {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.recommend-left-main-left img {
+    width: 100%;
+    /* height: 300px; */
+}
+
+.recommend-left-main-right {
+    flex: 1;
+    height: 100%;
+    float: right;
+}
+
+.recommend-main-right-box {
+    width: 50%;
+    height: 50%;
+}
+
+.recommend-box2 {
+    width: 95%;
+    height: 70%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.recommend-main-right-box img {
+    width: 100%;
+    /* height: 100%; */
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.recommend-main-right-box span {
+    margin-left: 5%;
+}
+
+.recommend-fonts-top {
+    font-weight: 600;
+}
+
+.recommend-fonts-bottom {
+    font-size: 10px;
+    color: rgb(126, 126, 126);
+}
+
+.recommend-left-main-right div {
+    float: left;
+}
+
+.recommend-right {
+    flex:1;
+    height: 100%;
+    float: right;
+}
+
+.recommend-right-head {
+    width: 100%;
+    height: 60px;
+}
+
+.recommend-right-head a {
+    padding-left: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 60px;
+    color: black;
+}
+
+.recommend-right-main {
+    width: 94%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.recommend-right-main li {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+}
+
+.recommend-right-main span {
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+    font-size: 40px;
+    /* font-weight: 800; */
+    font-style: oblique;
+}
+
+.recommend-right-main a {
+    font-size: 20px;
+    /* font-weight: 600; */
+    line-height: 80px;
+    margin-left: 25px;
+    color: #000;
+
+}
+
+.recommend-right-main img {
+    position: absolute;
+    top: 32px;
+    right: 44px;
+    width: 16px;
+}
+
+.recommend-right-main p {
+    float: right;
+    font-size: 17px;
+    margin-right: 15px;
+    color: rgb(79 180 89);
+    line-height: 80px;
+}
+
+
+
+
+/* 分类 */
+.recommend-classify {
+    width: 1519px;
+    height: 700px;
+    /* background-color: aqua; */
+}
+
+.recommend-classify-main {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.recommend-classify-inner {
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+.recommend-classify-inner-header {
+    font-weight: 100;
+}
+
+.recommend-classify-inner-main {
+    width: 100%;
+    height: 290px;
+}
+
+.recommend-classify-main-big {
+    width: 67%;
+    height: 100%;
+    float: left;
+}
+
+.recommend-classify-main-big-img {
+    width: 96%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.recommend-classify-main-big-img img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.recommend-big {
+    width: 100%;
+    bottom: 25px;
+    margin-top: 4px;
+}
+
+.recommend-classify-main-big span {
+    font-size: 17px;
+}
+
+.recommend-classify-main-big span:hover {
+    color: rgb(250, 108, 51);
+}
+
+.recommend-classify-main-small {
+    width: 33%;
+    height: 100%;
+    float: right;
+}
+
+.recommend-classify-main-small-box {
+    width: 90%;
+    height: 50%;
+}
+
+.recommend-classify-main-small-img {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.recommend-classify-main-small-img img {
+    width: 100%;
+
+    height: 100%;
+}
+
+.recommend-small {
+    width: 100%;
+    height: 25px;
+    margin-top: 3px;
+}
+
+.recommend-small span {
+    font-size: 16px;
+}
+
+.recommend-small span:hover {
+    color: rgb(250, 108, 51);
+}
+

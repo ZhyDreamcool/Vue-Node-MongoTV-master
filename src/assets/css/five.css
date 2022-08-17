@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.five-list{
+    width: 100%;
+    height: 700px;
+    /* background-color: rgb(255, 186, 186); */
+}
+.listing{
+	width: 1200px;
+    height: 70px;
+	/* background-color: blueviolet; */
+    margin: 0 auto;
+}
+.ph{
+    background: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+    float: left;
+    /* background-color: rgb(255, 181, 181); */
+} 
+.ckgd{
+    font-size: 13px;
+    color: white;
+    padding: 8px 12px;
+    background: rgb(0, 0, 0);
+    float: right;
+    border-radius: 4px 4px 4px 4px;
+}
+.five-lists{
+    /* background-color: rgb(254, 255, 185); */
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+.lianzai{
+    width: 33%;
+    height: 600px;
+    float: left;
+    /* background-color: rgb(155, 217, 241); */
+}
+.lzb{
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 40px;
+}
+.small{
+    font-size: 13px;
+    color: gray;
+    margin-left: 40px;
+    height: 40px;
+}
+.five-top{
+    width: 90%;
+    height: 600px;
+    /* background-color: rgb(230, 192, 255); */
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.rank{
+    height: 100px;
+    /* width: 90%; */
+    /* background-color: rgb(232, 99, 99); */
+    opacity: 1;
+    filter: (alpha=100);
+}
+.rank:hover{
+    opacity: 0.7;
+    filter: (alpha=70);
+}
+.ul{
+    width: 210px;
+    height: 100px;
+}
+
+.rank-info{
+    width: 220px;
+    height: 100px;
+    float: left;
+    padding-left: 30px;
+}
+
+.rank-book{
+    font-size: 18px;
+    float: left;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+}
+
+.rank img{
+    height: 30px;
+    width: 30px;
+}
+.rank-title{
+    font-size: 16px;
+    color: gray;
+    width: 80%;
+    height: 50px;
+    float: left;
+    line-height: 30px;
+}
+.rank-pic{
+    width: 100%;
+    height: 100px;
+    /* float: right; */
+}
+.rank-pic img{
+    width: 70px;
+    height: 90px;
+    border-radius: 4px 4px 4px 4px;
+    float: right;
+}
+
+.ranks{
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(187, 241, 239); */
+}
+
+.rank-titles{
+    float: right;
+    margin-right: 15px;
+    color: gray;
+    font-size: 12px;
+}
+
+.five-bottom{
+    height: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.qianli{
+    height: 600px;
+    width: 33%;
+    float: left;
+    /* background-color: rgb(148, 245, 177); */
+}
